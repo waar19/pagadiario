@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "faf89810a310ceeb8e655c1674e72b10",
     "content-hash": "134aa856e7c89045d7b8ad503b26fa68",
     "packages": [
         {
@@ -46,7 +45,7 @@
                 "aura",
                 "installer"
             ],
-            "time": "2012-11-26 21:35:57"
+            "time": "2012-11-26T21:35:57+00:00"
         },
         {
             "name": "aura/intl",
@@ -124,7 +123,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2014-08-24 00:00:00"
+            "time": "2014-08-24T00:00:00+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -197,7 +196,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-08-13 02:26:28"
+            "time": "2016-08-13T02:26:28+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -252,7 +251,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2016-07-14 05:16:14"
+            "time": "2016-07-14T05:16:14+00:00"
         },
         {
             "name": "cakephp/migrations",
@@ -302,7 +301,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2016-06-23 17:18:29"
+            "time": "2016-06-23T17:18:29+00:00"
         },
         {
             "name": "cakephp/plugin-installer",
@@ -342,38 +341,36 @@
                 }
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
-            "time": "2016-04-28 03:01:34"
+            "time": "2016-04-28T03:01:34+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
-            "version": "2.8.22",
+            "version": "2.8.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "53cddae0c272a478b24a4b5fb60d0f838caf70b6"
+                "reference": "ec69a0c381b5fe44547680d3c7db6ced08e5abb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/53cddae0c272a478b24a4b5fb60d0f838caf70b6",
-                "reference": "53cddae0c272a478b24a4b5fb60d0f838caf70b6",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/ec69a0c381b5fe44547680d3c7db6ced08e5abb3",
+                "reference": "ec69a0c381b5fe44547680d3c7db6ced08e5abb3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0.0"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "johnkary/phpunit-speedtrap": "~1.0@dev",
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "~4.8.35||~5.7"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "Mobile_Detect.php"
-                ],
                 "psr-0": {
                     "Detection": "namespaced/"
-                }
+                },
+                "classmap": [
+                    "Mobile_Detect.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -396,7 +393,11 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2016-04-24 09:47:16"
+            "support": {
+                "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
+                "source": "https://github.com/serbanghita/Mobile-Detect/tree/devel"
+            },
+            "time": "2018-06-03T13:13:04+00:00"
         },
         {
             "name": "psr/http-message",
@@ -446,7 +447,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -484,7 +485,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "robmorgan/phinx",
@@ -545,7 +546,7 @@
                 "migrations",
                 "phinx"
             ],
-            "time": "2016-03-07 14:09:22"
+            "time": "2016-03-07T14:09:22+00:00"
         },
         {
             "name": "symfony/config",
@@ -598,7 +599,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:04:17"
+            "time": "2016-07-26T08:04:17+00:00"
         },
         {
             "name": "symfony/console",
@@ -658,7 +659,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:04:17"
+            "time": "2016-07-26T08:04:17+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -707,7 +708,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-20 05:44:26"
+            "time": "2016-07-20T05:44:26+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -766,7 +767,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-05-18T14:26:46+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -815,7 +816,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-17 14:02:08"
+            "time": "2016-07-17T14:02:08+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -865,7 +866,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2016-03-17 18:02:05"
+            "time": "2016-03-17T18:02:05+00:00"
         }
     ],
     "packages-dev": [
@@ -913,7 +914,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2016-07-22 01:31:00"
+            "time": "2016-07-22T01:31:00+00:00"
         },
         {
             "name": "cakephp/debug_kit",
@@ -969,7 +970,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2016-08-10 01:21:04"
+            "time": "2016-08-10T01:21:04+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1002,7 +1003,7 @@
                 "MIT"
             ],
             "description": "implementation of xdg base directory specification for php",
-            "time": "2014-10-24 07:27:01"
+            "time": "2014-10-24T07:27:01+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1045,7 +1046,7 @@
                     "homepage": "http://www.acci.cz"
                 }
             ],
-            "time": "2014-04-08 15:00:19"
+            "time": "2014-04-08T15:00:19+00:00"
         },
         {
             "name": "jakub-onderka/php-console-highlighter",
@@ -1089,7 +1090,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
-            "time": "2015-04-20 18:58:01"
+            "time": "2015-04-20T18:58:01+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1139,7 +1140,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12 16:20:24"
+            "time": "2014-01-12T16:20:24+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1190,7 +1191,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2016-04-19 13:41:41"
+            "time": "2016-04-19T13:41:41+00:00"
         },
         {
             "name": "psy/psysh",
@@ -1262,7 +1263,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2016-03-09 05:03:14"
+            "time": "2016-03-09T05:03:14+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -1325,7 +1326,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-07-26 08:04:17"
+            "time": "2016-07-26T08:04:17+00:00"
         }
     ],
     "aliases": [],
@@ -1338,5 +1339,6 @@
     "platform": {
         "php": ">=5.5.9"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
